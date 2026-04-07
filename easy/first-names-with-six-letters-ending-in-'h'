@@ -1,0 +1,11 @@
+-- Problem:Contact Information Completeness
+-- Difficulty: Easy
+-- Source: StrataScratch
+-- Link: https:https://platform.stratascratch.com/coding/9842-find-all-workers-whose-first-name-contains-6-letters-and-also-ends-with-the-letter-h
+
+-- Solution:
+
+select
+  *
+from worker
+WHERE LENGTH(first_name)= 6 AND first_name LIKE '%h'
