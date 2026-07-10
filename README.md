@@ -4,7 +4,7 @@ SQL solutions to StrataScratch problems (Easy & Medium).
 
 ## 📁 Structure
 - `easy/` — Easy level problems
-- `medium/` — Medium level problems
+- `medium/` — Medium-level problems
 
 ## 🛠️ Topics Covered
 - Joins, Subqueries, Window Functions,
@@ -15,7 +15,7 @@ SQL solutions to StrataScratch problems (Easy & Medium).
 |------------|--------|
 | Easy       | 11
 | Medium     | 6      |
-| Hard       | 2      |
+| Hard       | 3      |
 
 ## 🔗 Profile
 [My StrataScratch Profile] https://platform.stratascratch.com/user/Rafatkhan1022
