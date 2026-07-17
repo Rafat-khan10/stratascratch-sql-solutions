@@ -1,0 +1,33 @@
+-- Problem: Find the number of inspections for each risk category by inspection type
+-- Difficulty: Medium
+-- Source: StrataScratch
+-- Link: https://platform.stratascratch.com/coding/10130-find-the-number-of-inspections-for-each-risk-category-by-inspection-type?code_type=1
+
+-- Solution:
+
+select 
+  inspection_type,
+  SUM(
+  CASE
+   WHEN risk_category IS NULL THEN 1
+   ELSE 0 
+  END ) AS  low_risk_results,
+  SUM(
+  CASE
+   WHEN risk_category='Low Risk' THEN 1
+   ELSE 0 
+  END ) AS  low_risk_results,
+  SUM(
+  CASE
+   WHEN risk_category='Moderate Risk' THEN 1
+   ELSE 0 
+  END ) AS  medium_risk_results,
+    SUM(
+  CASE
+   WHEN risk_category='High Risk' THEN 1
+   ELSE 0 
+  END ) AS  high_risk_results,
+  COUNT(*) AS total_inspections
+  
+from sf_restaurant_health_violations
+GROUP BY inspection_type
