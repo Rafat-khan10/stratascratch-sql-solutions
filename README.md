@@ -3,7 +3,7 @@
 SQL solutions to StrataScratch problems (Easy & Medium).
 
 ## 📁 Structure
-- `easy/` — Easy level problems
+- `easy/` — Easy-level problems
 - `medium/` — Medium-level problems
 
 ## 🛠️ Topics Covered
@@ -13,7 +13,7 @@ SQL solutions to StrataScratch problems (Easy & Medium).
 ## 📊 Progress
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 11
+| Easy       | 12
 | Medium     | 12      |
 | Hard       | 5      |
 
