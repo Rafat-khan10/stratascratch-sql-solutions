@@ -13,7 +13,7 @@ SQL solutions to StrataScratch problems (Easy & Medium).
 ## 📊 Progress
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 18
+| Easy       | 19
 | Medium     | 21      |
 | Hard       | 5      |
 
